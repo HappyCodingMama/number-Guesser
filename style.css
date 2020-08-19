@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #27262e;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.inputGuess {
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+}
+
+#guess-input {
+  margin-top: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  width: 300px;
+  padding: 4px 6px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 4px;
+}
+
+#guess-value {
+  margin-top: 0;
+  margin-left: 5px;
+  background-color: #27262e;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 6px;
+}

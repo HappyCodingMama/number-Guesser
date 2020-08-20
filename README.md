@@ -7,11 +7,14 @@ This app is based on courses by Brad Traversy from Udemy
 ## What I Did To Make The Project Even Better
 
 ## What I learned
-* method: parseInt, reload, math.floor, math.random
+* function: parseInt
+* method: reload, isNaN, math.floor, math.random
 * property: textContent
 
 - textContent : property of the Node interface represents the text content of the node and its descendants
 - reload: method reloads the current URL, like the Refresh button
+- parseInt : function parses a string argument and returns an integer of the specified radix 
+- isNaN: method determines whether the passed value is NaN and its type is Number
 
 ## Game Function:
 - Player must guess a number between a min and a max
@@ -22,7 +25,6 @@ This app is based on courses by Brad Traversy from Udemy
 
 ## How to build
 <strong> [ Step 1. UI & Add Task Items ] </strong>
-
 
 [ step1. Validation & Winning Case ]
 
@@ -37,20 +39,20 @@ class:min-num, max-num, message
 3. Assign UI min and max
 
 
-4.Listen for guess
+4. Listen for guess
 GuessBtn = add event, after 'click' call function
-define guess which is value of guessInput 
+define guess which is value of guessInput and return an integer 
 
 if it's not a number or less than min or greater than max
 load function setMessage  
 : argument are please enter a number between min and max , red
 
 
-5.define function setMessage
+5. define function setMessage
 argument are msg, color
 assigning - color, msg
 
-6.Check if won
+6. Check if won
 * if guess is equal winningNum
 * then, Disable input 
 * then, change border color : green
@@ -86,8 +88,9 @@ assigning - color, msg
   - IF statement
      : if add class 'play-again' at event target 
         then, reloads the current URL
-2. set winningNum is equal with function getWinningNum
+2. set winningNum is equal with function getRandomNum
 * define getRandomNum argument are min, max
+
 
 
 

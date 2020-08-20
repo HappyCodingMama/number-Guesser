@@ -32,21 +32,21 @@ p {
 
 .inputGuess {
   display: flex;
-  flex-direction: inline;
   align-items: center;
+  justify-content: center;
 }
 
 #guess-input {
   margin-top: 0;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
-  width: 300px;
+  width: 270px;
   padding: 4px 6px;
   border: 1px solid rgb(160, 160, 160);
   border-radius: 4px;
 }
 
-#guess-value {
+#guess-btn {
   margin-top: 0;
   margin-left: 5px;
   background-color: #27262e;
@@ -54,9 +54,13 @@ p {
   font-size: 12px;
   font-weight: 300;
   color: white;
-  width: 60px;
+  width: 90px;
   height: 30px;
   border: 0;
   border-radius: 4px;
   padding: 4px 6px;
+}
+
+.message {
+  font-size: 14px;
 }
